@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    /*background: lightgray;*/
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+
+}
+
+body {
+    background-image: url('./byu_picture.png');
+    background-size: cover; /* Makes the image cover the whole page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    color: lightgray;
+    background-color: #333;
+    padding: 10px 0;
+    border: 2px solid #ffffff;
+
+
+}
+
+.main-content {
+    flex: 1;
+}
+
+.dark-gray-background {
+    background-color: #333;
+    color: white;
+
+}
+
+.blue-background {
+    background-color: #1a1ab5;
+    color: white;
+}
+
+
+.container {
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Space out the boxes evenly */
+    gap: 10px; /* Optional: Adds a gap between the boxes */
+    padding: 1%;
+}
+
+.left-box, .right-box {
+    background-color: #333; /* Dark gray background for the boxes */
+    color: white;            /* White text */
+    padding: 20px;           /* Padding inside the boxes */
+    width: 48.5%;              /* Each box takes up 45% of the container's width */
+    border-radius: 20px;      /* Optional: rounded corners */
+    border: 2px solid #a0a0a0;
+}
+
+.blue_left-box, .blue_right-box {
+    background-color: #1a1ab5; /* Dark gray background for the boxes */
+    color: white;            /* White text */
+    padding: 20px;           /* Padding inside the boxes */
+    width: 48.5%;              /* Each box takes up 45% of the container's width */
+    border-radius: 20px;      /* Optional: rounded corners */
+    border: 2px solid white;
+}
+
+.box-image {
+    width: 50px; /* Adjust this to control the image size */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 10px; /* Space between text and image */
+}
+h2 {
+    margin-bottom: 10px; /* Space between the heading and paragraph */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid #ffffff;
+}
